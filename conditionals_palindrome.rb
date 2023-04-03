@@ -16,3 +16,7 @@
 # true
 
 p "Enter one word"
+
+palindrome = gets.chomp.downcase
+
+p palindrome == palindrome.reverse
